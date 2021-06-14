@@ -35,7 +35,7 @@ public class Funcionalidades {
   ExamenBDservice ExamenBDservice;
 
   @PostMapping("/save")
-  public String insertaDatos(@RequestParam Map<String, String> body) {
+  public String save(@RequestParam Map<String, String> body) {
     System.out.println(body.get("dato"));
     ExamenEntornosmodel entornosModel = new ExamenEntornosmodel();
     entornosModel.setDato(body.get("dato"));
