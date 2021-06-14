@@ -15,7 +15,6 @@ public class mostrarVocales {
         sb.append(palabra.charAt(i));
       }
     }
-
     // Finally, print the result
     return sb.toString();
   }
