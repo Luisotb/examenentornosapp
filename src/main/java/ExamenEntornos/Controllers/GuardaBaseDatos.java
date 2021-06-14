@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class GuardaBaseDatos {
 
   @RequestMapping("/save")
-  public String insercionDatos() {
-    return "insercionDatos";
+  public String save() {
+    return "save";
   }
 }
