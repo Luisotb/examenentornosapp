@@ -34,7 +34,7 @@ public class Funcionalidades {
   @Autowired
   ExamenBDservice ExamenBDservice;
 
-  @PostMapping("/save")
+  @PostMapping("/insertaDatos")
   public String save(@RequestParam Map<String, String> body) {
     System.out.println(body.get("dato"));
     ExamenEntornosmodel entornosModel = new ExamenEntornosmodel();
