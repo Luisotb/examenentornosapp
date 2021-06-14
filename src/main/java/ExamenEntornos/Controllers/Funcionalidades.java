@@ -56,7 +56,7 @@ public class Funcionalidades {
       palabra +
       "<br>" +
       "<br>" +
-      "- La frase en ascii es: " +
+      "- Las vocales son: " +
       vocales
     );
   }
