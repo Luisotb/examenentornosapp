@@ -24,7 +24,7 @@ public class Funcionalidades {
       "- Para contar las vocales y consonantes de una palabra, escribe: /extraer/{palabra}" +
       "<br>" +
       "<br>" +
-      "- Para guardar datos en la base de datos, escribe: '/insertaDatos'" +
+      "- Para guardar datos en la base de datos, escribe: '/save'" +
       "<br>" +
       "<br>" +
       "- Para listar los datos de la base, escribe: '/view'"
